@@ -1,0 +1,125 @@
+<?xml version="1.0" standalone="yes"?>
+<CalibrationProject>
+  <xs:schema id="CalibrationProject" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="CalibrationProject" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="data">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ObjWidth" type="xs:int" minOccurs="0" />
+                <xs:element name="ObjHeight" type="xs:int" minOccurs="0" />
+                <xs:element name="FieldSize" type="xs:double" minOccurs="0" />
+                <xs:element name="DetectionMethod" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="images">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ImagePath" type="xs:string" minOccurs="0" />
+                <xs:element name="SourceType" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="results">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ImageCount" type="xs:int" minOccurs="0" />
+                <xs:element name="focus_lenX" type="xs:double" minOccurs="0" />
+                <xs:element name="focus_lenY" type="xs:double" minOccurs="0" />
+                <xs:element name="PrincipalX" type="xs:double" minOccurs="0" />
+                <xs:element name="PrincipalY" type="xs:double" minOccurs="0" />
+                <xs:element name="Dist1" type="xs:double" minOccurs="0" />
+                <xs:element name="Dist2" type="xs:double" minOccurs="0" />
+                <xs:element name="Dist3" type="xs:double" minOccurs="0" />
+                <xs:element name="Dist4" type="xs:double" minOccurs="0" />
+                <xs:element name="focus_lenX_er" type="xs:double" minOccurs="0" />
+                <xs:element name="focus_lenY_er" type="xs:double" minOccurs="0" />
+                <xs:element name="PrincipalX_er" type="xs:double" minOccurs="0" />
+                <xs:element name="PrincipalY_er" type="xs:double" minOccurs="0" />
+                <xs:element name="Dist1_er" type="xs:double" minOccurs="0" />
+                <xs:element name="Dist2_er" type="xs:double" minOccurs="0" />
+                <xs:element name="Dist3_er" type="xs:double" minOccurs="0" />
+                <xs:element name="Dist4_er" type="xs:double" minOccurs="0" />
+                <xs:element name="dc_AllImage_errX" type="xs:double" minOccurs="0" />
+                <xs:element name="dc_AllImage_errY" type="xs:double" minOccurs="0" />
+                <xs:element name="Calib_Date" type="xs:string" minOccurs="0" />
+                <xs:element name="Calib_Type" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <data>
+    <ObjWidth>6</ObjWidth>
+    <ObjHeight>7</ObjHeight>
+    <FieldSize>31</FieldSize>
+    <DetectionMethod>3</DetectionMethod>
+  </data>
+  <images>
+    <ImagePath>C:\Users\cpscc\Desktop\컴퓨터비전\Images\IMG_9726.jpg</ImagePath>
+    <SourceType>0</SourceType>
+  </images>
+  <images>
+    <ImagePath>C:\Users\cpscc\Desktop\컴퓨터비전\Images\IMG_9727.jpg</ImagePath>
+    <SourceType>0</SourceType>
+  </images>
+  <images>
+    <ImagePath>C:\Users\cpscc\Desktop\컴퓨터비전\Images\IMG_9728.jpg</ImagePath>
+    <SourceType>0</SourceType>
+  </images>
+  <images>
+    <ImagePath>C:\Users\cpscc\Desktop\컴퓨터비전\Images\IMG_9729.jpg</ImagePath>
+    <SourceType>0</SourceType>
+  </images>
+  <images>
+    <ImagePath>C:\Users\cpscc\Desktop\컴퓨터비전\Images\IMG_9730.jpg</ImagePath>
+    <SourceType>0</SourceType>
+  </images>
+  <images>
+    <ImagePath>C:\Users\cpscc\Desktop\컴퓨터비전\Images\IMG_9731.jpg</ImagePath>
+    <SourceType>0</SourceType>
+  </images>
+  <images>
+    <ImagePath>C:\Users\cpscc\Desktop\컴퓨터비전\Images\IMG_9732.jpg</ImagePath>
+    <SourceType>0</SourceType>
+  </images>
+  <images>
+    <ImagePath>C:\Users\cpscc\Desktop\컴퓨터비전\Images\IMG_9733.jpg</ImagePath>
+    <SourceType>0</SourceType>
+  </images>
+  <images>
+    <ImagePath>C:\Users\cpscc\Desktop\컴퓨터비전\Images\IMG_9734.jpg</ImagePath>
+    <SourceType>0</SourceType>
+  </images>
+  <images>
+    <ImagePath>C:\Users\cpscc\Desktop\컴퓨터비전\Images\IMG_9736.jpg</ImagePath>
+    <SourceType>0</SourceType>
+  </images>
+  <results>
+    <ImageCount>10</ImageCount>
+    <focus_lenX>3286.5843362581213</focus_lenX>
+    <focus_lenY>3292.3596264281264</focus_lenY>
+    <PrincipalX>2028.149145835318</PrincipalX>
+    <PrincipalY>1456.8945265434397</PrincipalY>
+    <Dist1>0.25748184918194428</Dist1>
+    <Dist2>-1.0208140291614893</Dist2>
+    <Dist3>-0.0057491632140402905</Dist3>
+    <Dist4>0.0024680357956056451</Dist4>
+    <focus_lenX_er>8.4611530303955078</focus_lenX_er>
+    <focus_lenY_er>8.6122264862060547</focus_lenY_er>
+    <PrincipalX_er>11.980235099792481</PrincipalX_er>
+    <PrincipalY_er>11.061954498291016</PrincipalY_er>
+    <Dist1_er>0.037261001765728</Dist1_er>
+    <Dist2_er>0.58102196455001831</Dist2_er>
+    <Dist3_er>0.0017201097216457129</Dist3_er>
+    <Dist4_er>0.0017821041401475668</Dist4_er>
+    <dc_AllImage_errX>1.2276518371502492</dc_AllImage_errX>
+    <dc_AllImage_errY>1.2919830609907259</dc_AllImage_errY>
+    <Calib_Date>4/5/2024 7:54:46 PM</Calib_Date>
+    <Calib_Type>2</Calib_Type>
+  </results>
+</CalibrationProject>
